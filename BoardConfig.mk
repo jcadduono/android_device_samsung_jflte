@@ -70,3 +70,6 @@ TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_jflte
 TARGET_RECOVERY_DEVICE_MODULES := libinit_jflte
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/jflte/init/init_jflte.cpp
+
+# Loki bootloader exploit
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflte/releasetools

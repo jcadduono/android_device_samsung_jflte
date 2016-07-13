@@ -19,5 +19,8 @@ lunch omni_jflte-eng
 make -j5 recoveryimage
 ```
 
+Some locked devices, ex. jfltevzw, jflteatt, and jfltedcm are susceptible to the Loki bootloader exploit.  
+This device tree includes it automatically into the build.
+
 Kernel sources are available at: https://github.com/jcadduono/twrp_kernel_samsung_jflte/tree/twrp-6.0
 
